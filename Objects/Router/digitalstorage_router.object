@@ -1,0 +1,39 @@
+{
+  "objectName" : "digitalstorage_router",
+  "colonyTags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Small box with antennas that passes the signal further away.",
+  "shortdescription" : "Router",
+  "race": "generic",
+
+  "category" : "wire",
+  "price" : 10,
+
+  "inventoryIcon" : "digitalstorage_routerIcon.png",
+  "orientations" : [
+    {
+      "image" : "digitalstorage_router.png",
+      "imagePosition" : [0, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "digitalstorage_router.lua" ],
+  "scriptDelta" : 0,
+
+  "animation" : "digitalstorage_router.animation",
+    "animationParts" : {
+        "digitalstorage_router" : "/Objects/Router/digitalstorage_router.png"
+    },
+    
+    "animationPosition" : [0, 0],
+    
+"DigitalStorageNetworkPart" : true,
+  "inputNodes" : [ [0, 1] ],
+  "outputNodes" : [ [0, 0] ]
+  
+  //
+}

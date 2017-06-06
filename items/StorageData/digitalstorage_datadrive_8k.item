@@ -1,0 +1,14 @@
+{
+  "itemName" : "digitalstorage_datadrive_8k",
+  "shortdescription" : "Holographic Drive (8k)",
+  "description" : "Stores items.",
+  "category" : "container",
+  "inventoryIcon" : "digitalstorage_datadrive.png",
+  "rarity" : "uncommon",
+  "maxStack" : 1,
+  
+  "digitalstorage_drivedata" : {
+    "description" : "Stores items.",
+    "capacity" : 8192
+  }
+}
